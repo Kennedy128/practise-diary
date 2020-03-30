@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Diary } from '../diary';
 
 @Component({
   selector: 'app-goal-form',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./goal-form.component.css']
 })
 export class GoalFormComponent implements OnInit {
+  newDiary = new Diary(0,"","",new Date());
 
   constructor() { }
 

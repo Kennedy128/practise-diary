@@ -1,11 +1,15 @@
 <div class="container-fluid">
     <h2 class="text-center">Create a new list you want to achieve</h2>
     <hr>
-    <form>
+    <form #goalForm='ngForm'>
+    
         <div class="form-group">
   
             <label for="name">Name</label>
-            <input type="text" required class="form-control" id="name">
+            <input type="text" required class="form-control" id="name" [(ngModel)]="newDiary.name" name="name">
+            Display {{newDiary.name}}
+            
+            
   
         </div>
         <div class="form-group">
