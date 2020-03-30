@@ -1,5 +1,5 @@
 <div class="container">
-    <h1>MY GOALS</h1>
+    <h1>MY to do  list for today</h1>
     <hr>
   
     <div class="row">
@@ -11,7 +11,7 @@
           </div>
   
           <div *ngIf='goal.showDescription'>
-            <app-goal-detail  [goal]='goal' (isComplete) = 'deleteGoal($event,i)'></app-goal-detail>
+            <app-diary-detail  [diary]='goal' (isComplete) = 'deleteGoal($event,i)'></app-diary-detail>
           </div>
         </div>
       </div>
@@ -19,5 +19,5 @@
         <app-goal-form></app-goal-form>
       </div>
     </div>
-    <p *ngIf='goals.length > 5'>You have too many goals</p>
+    <p *ngIf='goals.length > 5'>You have too many things to do</p>
   </div>
