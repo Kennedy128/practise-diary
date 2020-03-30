@@ -8,7 +8,7 @@ import { Diary } from './diary';
 })
 export class AppComponent {
   goals:Diary[] = [
-    {id:1, name:'Watch finding Nemo',description:'Find an online version and watch merlin find his son'},
+    {id:1, name:'Watch finding Nemo'},
     {id:2,name:'Buy Cookies',description:'I have to buy cookies for the parrot'},
     {id:3,name:'Get new Phone Case',description:'Diana has her birthday coming up soon'},
     {id:4,name:'Get Dog Food',description:'Pupper likes expensive sancks'},
