@@ -8,12 +8,12 @@ import { Diary } from '../diary';
 })
 export class DiaryComponent implements OnInit {
   goals:Diary[] = [
-    {id:1, name:'Watch finding Nemo',description:'Find an online version and watch merlin find his son'},
-    {id:2,name:'Buy Cookies',description:'I have to buy cookies for the parrot'},
-    {id:3,name:'Get new Phone Case',description:'Diana has her birthday coming up soon'},
-    {id:4,name:'Get Dog Food',description:'Pupper likes expensive sancks'},
-    {id:5,name:'Solve math homework',description:'Damn Math'},
-    {id:6,name:'Plot my world domination plan',description:'Cause I am an evil overlord'},
+    {id:1, name:'walking up in the morning',description:'so as to attend the morning stand up which will be in our groups'},
+    {id:2,name:'attending morning stand up',description:'so as to gain instructions'},
+    {id:3,name:'prepairing breakfast',description:'to gain enough energy so as to cover the content'},
+    {id:4,name:'watching news',description:'so as to get latest corona virus update'},
+    {id:5,name:'starting on my Ip',description:'so as to finish it early'},
+    {id:6,name:'taking a walk',description:'so as to relax my mind'},
     
   ];
 
