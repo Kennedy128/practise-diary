@@ -8,12 +8,13 @@ import { Diary } from '../diary';
 })
 export class DiaryComponent implements OnInit {
   goals:Diary[] = [
-    {id:1, name:'walking up in the morning',description:'so as to attend the morning stand up which will be in our groups'},
-    {id:2,name:'attending morning stand up',description:'so as to gain instructions'},
-    {id:3,name:'prepairing breakfast',description:'to gain enough energy so as to cover the content'},
-    {id:4,name:'watching news',description:'so as to get latest corona virus update'},
-    {id:5,name:'starting on my Ip',description:'so as to finish it early'},
-    {id:6,name:'taking a walk',description:'so as to relax my mind'},
+    new Diary(1, 'Waking up early in the morning', 'so as to attend the morning stand up in our respective groups',new Date(2020,3,14)),
+    new Diary(2,'attending morning standups','so as to be given instructions',new Date(2019,6,9)),
+    new Diary(3,'watching the television','so as to get the Corona update',new Date(2022,1,12)),
+    new Diary(4,'cooking breakfast','so as to gain energy to do the Ip',new Date(2019,0,18)),
+    new Diary(5,'covering the days content','so as to gain knowledge',new Date(2019,2,14)),
+    new Diary(6,'talking a walk','so as to relax my mind from the days work',new Date(2030,3,14)),
+    
     
   ];
 
