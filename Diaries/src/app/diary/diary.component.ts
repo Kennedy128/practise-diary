@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
-import { Diary } from './diary';
+import { Component, OnInit } from '@angular/core';
+import { Diary } from '../diary';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-diary',
+  templateUrl: './diary.component.html',
+  styleUrls: ['./diary.component.css']
 })
-export class AppComponent {
+export class DiaryComponent implements OnInit {
   goals:Diary[] = [
     {id:1, name:'Watch finding Nemo',description:'Find an online version and watch merlin find his son'},
     {id:2,name:'Buy Cookies',description:'I have to buy cookies for the parrot'},
@@ -16,6 +16,10 @@ export class AppComponent {
     {id:6,name:'Plot my world domination plan',description:'Cause I am an evil overlord'},
     
   ];
-  
-  
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
 }
